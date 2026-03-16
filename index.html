@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>我的网站</title>
+
+<style>
+
+body{
+text-align:center;
+font-family:Arial;
+}
+
+#photos{
+display:none;
+margin-top:20px;
+}
+
+#photos img{
+width:300px;
+margin:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>我叫 张钊魁。</h2>
+
+<p>这是我女朋友何静。</p>
+
+<button onclick="showPhoto()">点我看何静照片</button>
+
+<div id="photos">
+
+<img src="hj1.jpg">
+<img src="hj2.jpg">
+<img src="hj3.jpg">
+
+</div>
+
+<br>
+
+<script>
+
+function showPhoto(){
+document.getElementById("photos").style.display="block";
+}
+
+</script>
+
+</body>
+
+</html>
